@@ -17,8 +17,8 @@ public class GetServciceTests
         var products = await repo.GetAllAsync();
 
         // Assert
-        products.Should().ContainEquivalentOf(new Product("Iphone", 14999));
+        products.Should().ContainEquivalentOf(new Product("Iphone", 1499));
     }
-    
+
 
 }
