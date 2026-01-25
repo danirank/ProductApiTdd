@@ -1,6 +1,9 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/products.api/products.api.csproj" />
-    <Project Path="src/products.tests/products.tests.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Products.Api/">
+    <Project Path="src/Products.Api/products.api.csproj" />
+  </Folder>
+  <Folder Name="/src/Products.Tests/">
+    <Project Path="src/Products.Tests/products.tests.csproj" />
   </Folder>
 </Solution>
