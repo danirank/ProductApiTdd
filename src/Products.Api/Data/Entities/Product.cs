@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Entities;
 
 public class Product
@@ -8,6 +10,8 @@ public class Product
         Price = price;
     }
 
+    [Key]
+    public int ProductId { get; set; }
     public string Name { get; set; } = string.Empty;
 
     public decimal Price { get; set; }
